@@ -8,3 +8,4 @@ test/dummy/storage/
 test/dummy/db/*.sqlite3
 test/dummy/tmp/
 test/configurations.yml
+.byebug_history
