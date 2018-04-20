@@ -1,0 +1,7 @@
+# digital_ocean:
+#  service: DigitalOcean
+#  spaces_access_key: <YOUR_SPACES_KEY_HERE>
+#  spaces_secret_key: <YOUR_SPACES_SECRET_KEY_HERE>
+#  region: nyc3
+#  space_name: <YOUR_SPACES_NAME_HERE>
+#  endpoint: 'https://nyc3.digitaloceanspaces.com'

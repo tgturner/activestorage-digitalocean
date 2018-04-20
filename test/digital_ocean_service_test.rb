@@ -45,7 +45,7 @@ class ActiveStorage::Service::DigitalOceanServiceTest < ActiveSupport::TestCase
       disposition: :inline, filename: ActiveStorage::Filename.new("avatar.png"), content_type: "image/png")
 
     assert_match(/(-[-a-z0-9]+)?\.(\S+)?digitaloceanspaces.com.*response-content-disposition=inline.*avatar\.png.*response-content-type=image%2Fpng/, url)
-    assert_match SERVICE_CONFIGURATIONS[:digital_ocean][:bucket], url
+    assert_match SERVICE_CONFIGURATIONS[:digital_ocean][:space_name], url
   end
 
   test "configuring upload with server-side encryption" do

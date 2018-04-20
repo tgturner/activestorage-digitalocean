@@ -9,5 +9,4 @@ gem "rails"
 group :development, :test do
   gem "rubocop", "~> 0.49.0"
   gem "byebug"
-  gem "dotenv"
 end
