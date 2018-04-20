@@ -2,8 +2,6 @@
 
 **WARNING** this gem should not be used for any critical systems. It does not add much to the existing functionality of `ActiveStorage`. DigitalOcean Spaces are already compatible with the `ActiveStorage` implementation for Amazon. Instead of pulling in a new dependency, you should setup your `config/storage.yml` like this.
 
-This Gem was born out of a [failed Rails PR](https://github.com/rails/rails/pull/32660)
-
 ```yml
 amazon:
   service: S3
@@ -13,6 +11,8 @@ amazon:
   bucket: <YOUR_SPACES_NAME_HERE>
   endpoint: 'https://nyc3.digitaloceanspaces.com'
 ```
+
+This Gem was born out of a [failed Rails PR](https://github.com/rails/rails/pull/32660).
 
 ## Installation
 
