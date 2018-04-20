@@ -1,3 +1,5 @@
+[!Build Status(https://travis-ci.org/tgturner/activestorage-digitalocean.svg?branch=master)](https://travis-ci.org/tgturner/activestorage-digitalocean)
+
 # ActiveStorage Service for DigitalOcean Spaces
 
 **WARNING** this gem should not be used for any critical systems. It does not add much to the existing functionality of `ActiveStorage`. DigitalOcean Spaces are already compatible with the `ActiveStorage` implementation for Amazon. Instead of pulling in a new dependency, you should setup your `config/storage.yml` like this.

@@ -1,0 +1,7 @@
+digital_ocean:
+  service: DigitalOcean
+  spaces_access_key: <%= ENV.fetch('SPACES_ACCESS_KEY') %>
+  spaces_secret_key: <%= ENV.fetch('SPACES_SECRET_KEY') %>
+  region: nyc3
+  space_name: <%= ENV.fetch('SPACE_NAME') %>
+  endpoint: 'https://nyc3.digitaloceanspaces.com'

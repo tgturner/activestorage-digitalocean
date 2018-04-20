@@ -68,6 +68,7 @@ GEM
     byebug (10.0.2)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
+    dotenv (2.3.0)
     erubi (1.7.1)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -154,6 +155,7 @@ PLATFORMS
 DEPENDENCIES
   activestorage-digitalocean!
   byebug
+  dotenv
   rails
   rubocop (~> 0.49.0)
   sqlite3

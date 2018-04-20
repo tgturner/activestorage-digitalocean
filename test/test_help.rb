@@ -1,3 +1,6 @@
+require 'dotenv'
+Dotenv.load
+
 # Configure Rails Environment
 ENV["RAILS_ENV"] = "test"
 
