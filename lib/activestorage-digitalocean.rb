@@ -1,0 +1,1 @@
+require "activestorage-digitalocean/base"
