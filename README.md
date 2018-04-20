@@ -1,4 +1,4 @@
-[[!Build Status](https://travis-ci.org/tgturner/activestorage-digitalocean.svg?branch=master)](https://travis-ci.org/tgturner/activestorage-digitalocean)
+[[!Build Status](https://travis-ci.org/tgturner/activestorage-digitalocean.png?branch=master)](https://travis-ci.org/tgturner/activestorage-digitalocean)
 
 # ActiveStorage Service for DigitalOcean Spaces
 
