@@ -46,7 +46,7 @@ digital_ocean:
 
 ## Running Tests
 
-Add your own `test/configurations.yml` that matches the example given, then run either `bin/test` or `bundle exec rake test`
+Add your own environment variables for `test/configurations.yml`, then run either `bin/test` or `bundle exec rake test`
 
 Currently there is an issue when running the full test suite at once that causes `Aws::S3::Errors::QuotaExceeded` errors to occur. If you would like to run a single tests, you may do so like this.
 
