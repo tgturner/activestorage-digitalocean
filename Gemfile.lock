@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     activestorage-digitalocean (0.0.1)
-      activestorage (>= 5.2)
+      activestorage (~> 5.2)
       aws-sdk-s3 (~> 1)
 
 GEM

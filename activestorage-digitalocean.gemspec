@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
   gem.files                 = Dir['{app,config,db,lib}/**/*']
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.add_runtime_dependency "activestorage", ">= 5.2"
+  gem.add_runtime_dependency "activestorage", "~> 5.2"
   gem.add_runtime_dependency "aws-sdk-s3", "~> 1"
 end
