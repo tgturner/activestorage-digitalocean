@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module ActiveStorageDigitalOcean
-  # Your code goes here...
+  VERSION = "0.0.1"
 end
